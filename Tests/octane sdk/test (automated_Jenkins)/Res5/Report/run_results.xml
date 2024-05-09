@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Add-in(s) not activated</Name>
+    <Description>The following add-in(s) were associated with your test, but are not currently loaded: 
+ActiveX, Silverlight, VisualBasic.</Description>
+    <StartTime>2024-05-09 14:42:52</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-05-09 14:44:07</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>e043b0c1270b4a58a3f28c7018620640</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2024-05-09 14:42:52</StartTime>
+    <Duration>75</Duration>
+    <Result>Done</Result>
+    <InputParameters>
+      <Parameter name="aClientId" value="jenkins_gml3kn4ym9419u216ywgpz1dy" type="System.String" />
+      <Parameter name="aClientSecret" value="-98591703619057166187H" type="System.String" />
+      <Parameter name="aOctaneUrl" value="http://15.122.82.91:8085/" type="System.String" />
+      <Parameter name="aOctaneSpaceId" value="1001" type="System.String" />
+      <Parameter name="aOctaneWorkspaceId" value="2001" type="System.String" />
+      <Parameter name="aRunId" value="" type="System.String" />
+      <Parameter name="aSuiteId" value="" type="System.String" />
+      <Parameter name="aSuiteRunId" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>4b921851e66a4273a2a40cebf8cb6fcd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2024-05-09 14:42:52</StartTime>
+    <Duration>75</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f1621d54653f499c8018b154e8f46fb3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-05-09 14:44:07</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>74e3e8623f004055b2707482b28218e5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>test (automated_Jenkins)</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>23.4</ToolVersion>
+    <ToolVersionStringLiteral>23.4</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2024-05-09 14:42:49</StartTime>
+    <Duration>78</Duration>
+    <Result>Warning</Result>
+    <InputParameters>
+      <Parameter name="octane_apiUser" value="jenkins_gml3kn4ym9419u216ywgpz1dy" type="System.String" />
+      <Parameter name="octane_apiSecret" value="-98591703619057166187H" type="System.String" />
+      <Parameter name="octaneUrl" value="http://15.122.82.91:8085/" type="System.String" />
+      <Parameter name="octaneSpaceId" value="1001" type="System.String" />
+      <Parameter name="octaneWorkspaceId" value="2001" type="System.String" />
+      <Parameter name="runId" value="" type="System.String" />
+      <Parameter name="suiteId" value="" type="System.String" />
+      <Parameter name="suiteRunId" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>e16bf4b1f8474bd99c7a79fa4375b108</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+03:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>OPENTEXT\okulchitska</User>
+      <CpuInfo>Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz</CpuInfo>
+      <NumberOfCores>8</NumberOfCores>
+      <TotalMemory>32619</TotalMemory>
+      <HostName>opentext.net\UA8916</HostName>
+      <OSInfo>Windows 10 21H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res5</ResultName>
+    <RunStartTime>2024-05-09 14:42:49</RunStartTime>
+    <Timezone>+03:00:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>23.4</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>23.4</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

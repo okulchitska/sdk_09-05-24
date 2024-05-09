@@ -1,0 +1,5 @@
+﻿<Properties>
+  <WatchEntry0 value="octaneUrl" />
+  <WatchEntry1 value="clientId" />
+  <WatchEntry2 value="isConnected" />
+</Properties>

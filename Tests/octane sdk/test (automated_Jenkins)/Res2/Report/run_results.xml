@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Add-in(s) not activated</Name>
+    <Description>The following add-in(s) were associated with your test, but are not currently loaded: 
+ActiveX, Silverlight, VisualBasic.</Description>
+    <StartTime>2024-05-09 14:32:12</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Cannot load Assembly MicroFocus.Adm.Octane.Api.Core</Name>
+    <ErrorText>Cannot load Assembly MicroFocus.Adm.Octane.Api.Core</ErrorText>
+    <Description>&lt;BR/&gt;Line (21): &amp;quot;Set restConnector = DotNetFactory.CreateInstance(&amp;quot;MicroFocus.Adm.Octane.Api.Core.Connector.RestConnector&amp;quot;, &amp;quot;MicroFocus.Adm.Octane.Api.Core&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2024-05-09 14:32:13</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Set restConnector = DotNetFactory.CreateInstance("MicroFocus.Adm.Octane.Api.Core.Connector.RestConnector", "MicroFocus.Adm.Octane.Api.Core")]]></Scripts>
+          <LineNo><![CDATA[21]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>1507e04c13b14276a2ca79ea55542a72</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a1ce8f19-d123-4f27-8282-a00b37c149f3.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-05-09 14:32:43</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>52cfb3d2ee86437590ec8c6bcb202c45</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2024-05-09 14:32:13</StartTime>
+    <Duration>30</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="aClientId" value="" type="System.String" />
+      <Parameter name="aClientSecret" value="" type="System.String" />
+      <Parameter name="aOctaneUrl" value="" type="System.String" />
+      <Parameter name="aOctaneSpaceId" value="" type="System.String" />
+      <Parameter name="aOctaneWorkspaceId" value="" type="System.String" />
+      <Parameter name="aRunId" value="" type="System.String" />
+      <Parameter name="aSuiteId" value="" type="System.String" />
+      <Parameter name="aSuiteRunId" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>6975f3e8dab044fd8c78e3e6eb1c21a5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2024-05-09 14:32:13</StartTime>
+    <Duration>30</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>9ff586c1c0df40a8b81079097cebf651</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>test (automated_Jenkins)</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>23.4</ToolVersion>
+    <ToolVersionStringLiteral>23.4</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2024-05-09 14:32:07</StartTime>
+    <Duration>36</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="octane_apiUser" value="" type="System.String" />
+      <Parameter name="octane_apiSecret" value="" type="System.String" />
+      <Parameter name="octaneUrl" value="" type="System.String" />
+      <Parameter name="octaneSpaceId" value="" type="System.String" />
+      <Parameter name="octaneWorkspaceId" value="" type="System.String" />
+      <Parameter name="runId" value="" type="System.String" />
+      <Parameter name="suiteId" value="" type="System.String" />
+      <Parameter name="suiteRunId" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>e1706db9f6044a95bd8c3e242e3326d8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+03:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>OPENTEXT\okulchitska</User>
+      <CpuInfo>Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz</CpuInfo>
+      <NumberOfCores>8</NumberOfCores>
+      <TotalMemory>32619</TotalMemory>
+      <HostName>opentext.net\UA8916</HostName>
+      <OSInfo>Windows 10 21H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res2</ResultName>
+    <RunStartTime>2024-05-09 14:32:07</RunStartTime>
+    <Timezone>+03:00:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>23.4</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>23.4</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

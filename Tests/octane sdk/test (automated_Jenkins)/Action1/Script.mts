@@ -70,6 +70,7 @@ Dim test, FSO, outfile
 Set test = entityService.GetById(context, testType, testId, testFields)
 Set FSO = CreateObject("Scripting.FileSystemObject")
 Set outFile = FSO.CreateTextFile("C:\Downloads\test (automated, Jenkins).txt",True)
+outFile.WriteLine "Octane URL: " + octaneUrl
 outFile.WriteLine "Test ID: " + test.Id
 outFile.WriteLine "Test Name: " + test.Name
 outFile.WriteLine vbCrLf & "Test Type: " + test.Subtype
